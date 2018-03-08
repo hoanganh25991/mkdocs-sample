@@ -9,6 +9,7 @@ pages:
   - Chatbot & Serverless:
     - Application Structure: structure.md
     - Release notes: release-notes.md
+    - Samsung Chatbot: chatbot-samsung.md
   - BPM & ECM:
     - Installation: workforce-install.md  
   - Blockchain:
