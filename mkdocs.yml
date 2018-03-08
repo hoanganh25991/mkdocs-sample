@@ -5,5 +5,8 @@ extra:
 theme_dir: 'theme'
 pages:
   - Introduction: index.md
+  - Release notes: release-notes.md
+  - Developers:
+    - Application Structure: structure.md
 markdown_extensions:
   - admonition
