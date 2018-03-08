@@ -6,8 +6,12 @@ extra:
   logo: "images/logo.png"
 pages:
   - Introduction: index.md
-  - Release notes: release-notes.md
-  - Developers:
+  - Chatbot & Serverless:
     - Application Structure: structure.md
+    - Release notes: release-notes.md
+  - BPM & ECM:
+    - Installation: workforce-install.md  
+  - Blockchain:
+    - Blockchain Boilerplate: blockchain-boilerplate.md            
 markdown_extensions:
   - admonition
