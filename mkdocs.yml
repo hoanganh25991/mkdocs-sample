@@ -7,7 +7,7 @@ extra:
 pages:
   - Introduction: index.md
   - Serverless FaaS:
-    - AWS Serverless: serverless_development.md
+    - AWS Serverless: aws-serverless.md
   - Chatbot:
     - Application Structure: structure.md
     - Release notes: release-notes.md
