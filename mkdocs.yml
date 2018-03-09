@@ -6,7 +6,9 @@ extra:
   logo: "images/logo.png"
 pages:
   - Introduction: index.md
-  - Chatbot & Serverless:
+  - Serverless FaaS:
+    - AWS Serverless: serverless_development.md
+  - Chatbot:
     - Application Structure: structure.md
     - Release notes: release-notes.md
     - Samsung Chatbot: chatbot-samsung.md
