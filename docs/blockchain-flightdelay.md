@@ -40,11 +40,11 @@ Frontend page contains 2 tabs:
 
 + Dashboard screen
 
-![dashboard](/images/blockchain-flightdelay/blockchain-flightdelay/dashboard-2018-03-11_110408.png)
+![dashboard](/images/blockchain-flightdelay/dashboard-2018-03-11_110408.png)
 
 + Debug screen
 
-![debug](/images/blockchain-flightdelay/blockchain-flightdelay/debug-page-2018-03-11_110427.png)
+![debug](/images/blockchain-flightdelay/debug-page-2018-03-11_110427.png)
 
 
 ## Demo Guide
