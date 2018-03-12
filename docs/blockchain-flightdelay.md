@@ -40,11 +40,11 @@ Frontend page contains 2 tabs:
 
 + Dashboard screen
 
-![dashboard](images/blockchain-flightdelay/blockchain-flightdelay/dashboard-2018-03-11_110408.png)
+![dashboard](/images/blockchain-flightdelay/blockchain-flightdelay/dashboard-2018-03-11_110408.png)
 
 + Debug screen
 
-![debug](images/blockchain-flightdelay/blockchain-flightdelay/debug-page-2018-03-11_110427.png)
+![debug](/images/blockchain-flightdelay/blockchain-flightdelay/debug-page-2018-03-11_110427.png)
 
 
 ## Demo Guide
@@ -60,12 +60,12 @@ Steps:
 + Go to [MetaMask on Chrome Webstore](https://goo.gl/GjRmQS)
 + Click "Add to Chrome" to install extension
 
-![](images/blockchain-flightdelay/install-metamask-2018-03-11_121640.png)
+![](/images/blockchain-flightdelay/install-metamask-2018-03-11_121640.png)
 
 + Click MetaMask on Chrome Browser to create new Ethereum Account
 + Preview Account's address
 
-![](images/blockchain-flightdelay/review-account-address-2018-03-11_122042.png)
+![](/images/blockchain-flightdelay/review-account-address-2018-03-11_122042.png)
 
 
 #### 2. Funding demo account
@@ -78,7 +78,7 @@ New Account with balance as 0, fund this account, on "Debug" tab
 
 + Funding screen
 
-![fund success](images/blockchain-flightdelay/fund-new-account-2018-03-11_122508.png)
+![fund success](/images/blockchain-flightdelay/fund-new-account-2018-03-11_122508.png)
 
 #### 3. Create New Policy
 Create new insurance policy for the flight we want
@@ -94,23 +94,23 @@ Fill in Policy Params
 Click on `Apply` to accept transfer premium ETH
 
 Example
-![](images/blockchain-flightdelay/create-new-policy-2018-03-11_123519.png)
+![](/images/blockchain-flightdelay/create-new-policy-2018-03-11_123519.png)
 
 New Policy insurance success created
 
 Preview policy on `Policy List` section
 
-![](images/blockchain-flightdelay/policy-2018-03-11_124033.png)
+![](/images/blockchain-flightdelay/policy-2018-03-11_124033.png)
 
 When flight actually delayed, Customer receive compensation from Smart Contract
 
 Click on policy to review details
 
-![](images/blockchain-flightdelay/policy-compensation-2018-03-11_124604.png)
+![](/images/blockchain-flightdelay/policy-compensation-2018-03-11_124604.png)
 
 Customer new balance
 
-![](images/blockchain-flightdelay/new-balance-2018-03-11_125140.png)
+![](/images/blockchain-flightdelay/new-balance-2018-03-11_125140.png)
 
 + Note: Balance not exactly equal to compensation amount, because customer has to pay Ethereum Gas to execute Smart Contract
 
@@ -138,8 +138,8 @@ To mock flight status, on "Debug" tab
 	
 Example
 
-![](images/blockchain-flightdelay/mock-flight-delay-2018-03-11_130108.png)
+![](/images/blockchain-flightdelay/mock-flight-delay-2018-03-11_130108.png)
 
 Different Compensation Amount, based on `delay minutes` & `fair premium`
 
-![](images/blockchain-flightdelay/different-compensation-2018-03-11_131249.png)
+![](/images/blockchain-flightdelay/different-compensation-2018-03-11_131249.png)
