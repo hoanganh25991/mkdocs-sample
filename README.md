@@ -36,6 +36,6 @@
 ## 2. MkDocs Deployment 
 
 ```
-  cd /home/ubuntu/devops/devopsdocs/
+  cd /home/ubuntu/devops/devopsdocs/ &&
   mkdocs serve
 ```

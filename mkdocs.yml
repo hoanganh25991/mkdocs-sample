@@ -15,6 +15,6 @@ pages:
   - BPM & ECM:
     - Installation: workforce-install.md  
   - Blockchain:
-    - Blockchain Boilerplate: blockchain-flightdelay.md            
+    - Blockchain Flight-Delay: blockchain-flightdelay.md            
 markdown_extensions:
   - admonition
