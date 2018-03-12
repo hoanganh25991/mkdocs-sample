@@ -5,15 +5,15 @@ theme:
 extra:
   logo: "images/logo.png"
 pages:
-  - Introduction: docs/index.md
+  - Introduction: index.md
   - Serverless FaaS:
-    - AWS Serverless: docs/aws-serverless.md
+    - AWS Serverless: aws-serverless.md
   - Chatbot:
-    - Application Structure: docs/structure.md
-    - Release notes: docs/release-notes.md
-    - Samsung Chatbot: docs/chatbot-samsung.md
+    - Application Structure: structure.md
+    - Release notes: release-notes.md
+    - Samsung Chatbot: chatbot-samsung.md
   - BPM & ECM:
-    - Installation: docs/workforce-install.md
+    - Installation: workforce-install.md
   - Blockchain:
     - Flight Delay: blockchain/flight-delay/index.md
     - Truffle Boilerplate: blockchain/flight-delay/index.md
