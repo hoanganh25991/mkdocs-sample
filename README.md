@@ -1,41 +1,40 @@
-# DevOps Documentation
+# Documentation with mkdocs
 
+## Installation
+#### 1. mkdocs
 
-## 1. MkDocs Development
-
-- 1.1. [Env] Installing MkDocs
+mkdocs based on `python`, install with `pip`
 
 ```
-  sudo -i
-  
-  # python --version
-  
-  # if pip not installed
-  easy_install pip
-  # show current pip version
-  pip --version
-  # upgrade pip
-  pip install --upgrade pip
-  
+  # Make sure python & pip already installed
   # Installing MkDocs
-  pip install mkdocs
-  
   # Installing Material Design theme for MkDocs
+  pip install mkdocs
   pip install mkdocs-material
 ```  
 
-- 1.2. [Dev] Initial Project
+#### 2. Serve docs files
+Common `mkdocs.yml` config
 
 ```
-  # cd /home/ubuntu/devops/ &
-  # mkdocs new devopsdocs
-  
-  sudo git clone https://DigitalBusiness@bitbucket.org/DevOpsDEC/devopsdocs.git
+site_name: MkDocs
+theme:
+  name: material
+pages:
+  - Blockchain:
+    - Truffle Boilerplate: blockchain/truffle-boilerlate.md
+markdown_extensions:
+  - admonition
+docs_dir: docs
+dev_addr: 0.0.0.0:8000
 ```
 
-## 2. MkDocs Deployment 
+```
+mkdocs serve
+```
+
+#### 3. Build static files
 
 ```
-  cd /home/ubuntu/devops/devopsdocs/ &&
-  mkdocs serve
+mkdocs build
 ```
