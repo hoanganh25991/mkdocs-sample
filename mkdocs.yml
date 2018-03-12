@@ -1,20 +1,21 @@
 site_name: DevOps Documentation
 theme:
-    name: material
-    custom_dir: theme
+  name: material
+  custom_dir: theme
 extra:
   logo: "images/logo.png"
 pages:
-  - Introduction: index.md
+  - Introduction: docs/index.md
   - Serverless FaaS:
-    - AWS Serverless: aws-serverless.md
+    - AWS Serverless: docs/aws-serverless.md
   - Chatbot:
-    - Application Structure: structure.md
-    - Release notes: release-notes.md
-    - Samsung Chatbot: chatbot-samsung.md
+    - Application Structure: docs/structure.md
+    - Release notes: docs/release-notes.md
+    - Samsung Chatbot: docs/chatbot-samsung.md
   - BPM & ECM:
-    - Installation: workforce-install.md  
+    - Installation: docs/workforce-install.md
   - Blockchain:
-    - Blockchain Flight-Delay: blockchain-flightdelay.md            
+    - Flight Delay: blockchain/flight-delay/index.md
+    - Truffle Boilerplate: blockchain/flight-delay/index.md
 markdown_extensions:
   - admonition
